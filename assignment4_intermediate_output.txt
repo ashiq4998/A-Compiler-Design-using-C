@@ -1,0 +1,56 @@
+1 header #include<stdio.h> 
+2 header #include<string.h> 
+3 header #include<conio.h> 
+4 header #include<math.h> 
+5 kw float id x1 op = num 3.125 sep ; sep ; sep ; 
+6 
+7 kw double id f1 par ( kw float id a sep , kw int id x par ) 
+8 brc { kw if par ( id x op < id x1 par ) 
+9 kw double id z sep ; sep ; 
+10 kw else id z op = num 0.01 sep ; brc } brc } 
+11 kw if par ( par ) sep ; 
+12 kw else kw return id z sep ; 
+13 brc } 
+14 
+15 
+16 
+17 kw float id sol par ( kw int id x par ) 
+18 brc { 
+19 kw return num 5.0 sep ; 
+20 brc } 
+21 
+22 kw int id main par ( par ) 
+23 brc { 
+24 kw int id n1 sep ; kw double id z sep ; 
+25 kw for par ( sep ; sep ; sep ; par ) sep ; 
+26 id n1 op = num 25 sep ; id z op = id f1 par ( id n1 par ) sep ; 
+27 kw int id y op = op - num 1 sep ; 
+28 kw int id x op = num 5 op + id z sep ; 
+29 kw int id i sep ; 
+30 kw int id count op = num 0 sep ; 
+31 kw for par ( id i op = num 0 sep ; id i op < id x sep ; id i op ++ par ) 
+32 id count op = id count op + num 1 sep ; 
+33 
+34 kw while par ( id count op > num 0 par ) 
+35 brc { 
+36 kw if par ( id count op % num 2 op == num 0 par ) 
+37 kw printf par ( par ) sep ; 
+38 kw else 
+39 brc { 
+40 kw printf par ( par ) sep ; 
+41 brc } 
+42 id count op -- sep ; 
+43 brc } 
+44 kw if par ( id count op == num 0 par ) 
+45 brc { 
+46 kw printf par ( par ) sep ; 
+47 
+48 
+49 brc } 
+50 kw float id p op = id sol par ( id x par ) sep ; 
+51 id p op = id p op + num 2.9 op * num 3.8 sep ; 
+52 id x op = num 4 op * num 6 op + num 2 op - num 5 op * num 3 op / num 5 op - id y op + par ( id count op * id i par ) sep ; 
+53 kw return num 0 sep ; 
+54 
+55 brc } 
+56 
